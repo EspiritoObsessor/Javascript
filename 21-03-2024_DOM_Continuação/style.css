@@ -1,0 +1,30 @@
+:root {
+    --bg_color1: rgb(226, 109, 109);
+    --bg_color2: rgb(226, 218, 109);
+}
+
+.cont {
+    display: flex;
+}
+
+.botao {
+    width: 100px;
+    height: 80px;
+    background-color: var(--bg_color1);
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0 , 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 10px;
+}
+
+.box {
+    width: 100px;
+    height: 80px;
+    background-color: var(--bg_color2);
+    transition: 1s;
+}
+
+.ada {display: none;}
+.aumento {width: 200px; height: 160px;}
